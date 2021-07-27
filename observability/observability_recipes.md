@@ -43,3 +43,5 @@ Besides the above recipes, these a couple that should be considered as well:
 * Are there are security breaches?
 * Are there any abnormal user behavior?
 * Are there any new vulnerabilities to my current system?
+
+OP: https://dzone.com/articles/observability-recipes?edition=683398
