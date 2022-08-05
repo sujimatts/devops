@@ -1,3 +1,5 @@
+## Should you use CSV, JSON, or SQL?
+
 Before you code a program, you should think of what structure you will use to store your data. For example, will you store the data in CSV, JSON, or an SQL database? This post will explain how to choose the correct data structure for your program.
 
 
