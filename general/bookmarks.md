@@ -28,7 +28,7 @@ devops & SRE discussions - https://www.linkedin.com/groups/6585254/
 https://app.facet.net/jobs/search
 
 ## gitlab
-pet project - https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol
+pet project - https://community.ops.io/jatin/ci-cd-101-with-gitlab-4pol  
 learn gitlab in 1hr - https://www.youtube.com/watch?v=B68jcGfH4C8
 
 ## python
