@@ -39,7 +39,7 @@ learn gitlab in 1hr - https://www.youtube.com/watch?v=B68jcGfH4C8
 ## python
 build flask app - https://www.educative.io/blog/python-flask-tutorial?aff=KNLz  
 code snippets - https://github.com/codophobia/python-code-snippets  
-100daysOfPython - https://github.com/ashutoshkrris/100-Days-of-Python  
+30-days-Of-Python - https://github.com/Asabeneh/30-Days-Of-Python
 
 ## CV
 https://flowcv.com/
