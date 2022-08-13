@@ -8,8 +8,13 @@ https://www.learnsteps.com/
 production best practices - https://learnk8s.io/production-best-practices  
 27 open source tools - https://dev.to/signoz/27-open-source-tools-that-can-make-your-kubernetes-workflow-easier-5ai2  
 
-interview questions - https://github.com/cloudnloud/interview-questions/tree/main/kubernetes  
-                    - https://kodekloud.com/blog/top-kubernetes-interview-questions/
+interview questions 
+  - https://github.com/cloudnloud/interview-questions/tree/main/kubernetes  
+  - https://kodekloud.com/blog/top-kubernetes-interview-questions/
+ 
+interactive_terminals  
+  - https://killercoda.com/killer-shell-cks
+  - https://labs.play-with-k8s.com/
 
 ## Docker
 5 ways to slim images - https://blog.codacy.com/five-ways-to-slim-your-docker-images/
