@@ -39,6 +39,7 @@ learn gitlab in 1hr - https://www.youtube.com/watch?v=B68jcGfH4C8
 ## python
 build flask app - https://www.educative.io/blog/python-flask-tutorial?aff=KNLz  
 code snippets - https://github.com/codophobia/python-code-snippets
+100daysOfPython - https://github.com/ashutoshkrris/100-Days-of-Python
 
 ## CV
 https://flowcv.com/
@@ -50,6 +51,7 @@ cdk-architecting - https://aws.amazon.com/blogs/architecture/lets-architect-arch
 ## devops
 courses - https://www.educative.io/path/devops-for-developers?aff=KNLz  
 90 days of devops - https://github.com/MichaelCade/90DaysOfDevOps
+interview_questions - https://github.com/bregman-arie/devops-exercises
 
 ## SRE
 google_sre - https://sre.google/sre-book/table-of-contents/
