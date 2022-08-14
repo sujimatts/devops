@@ -55,3 +55,6 @@ interview_questions - https://github.com/bregman-arie/devops-exercises
 
 ## SRE
 google_sre - https://sre.google/sre-book/table-of-contents/
+
+## networking
+https://itopslevelone.upload.academy/content/tech/networking/
