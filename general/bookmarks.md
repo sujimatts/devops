@@ -58,3 +58,6 @@ google_sre - https://sre.google/sre-book/table-of-contents/
 
 ## networking
 https://itopslevelone.upload.academy/content/tech/networking/
+
+## company insghts
+https://www.crunchbase.com/
