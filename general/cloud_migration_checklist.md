@@ -194,3 +194,12 @@ Questions from Feb 7 document that we&#39;re not using
   - Who does contingency testing when external? Ensure redundancy in solutions.
   - Are all tools and software used in solution approved on the/DHS TRM?
   - Validating public trust and ROB for all system administrators?
+
+READ:
+https://www.ancoris.com/blog/12-items-cloud-migration-checklist
+https://cloud.google.com/resources/cloud-migration-checklist
+https://phoenixnap.com/blog/cloud-migration-checklist
+https://peoplactive.com/cloud-migration-checklist/
+https://medium.datadriveninvestor.com/step-by-step-cloud-migration-checklist-4735b9456802
+https://www.techtarget.com/searchcloudcomputing/opinion/What-to-include-on-your-cloud-migrations-checklist
+
