@@ -178,6 +178,7 @@ Having the System Security Plan (SSP), Interconnection Security Agreements (ISAs
 ## AWS Whitepapers
 https://media.amazonwebservices.com/CloudMigration-main.pdf
 https://media.amazonwebservices.com/CloudMigration-scenario-wep-app.pdf
+https://www.slideshare.net/AmazonWebServices/aws-migration-planning-roadmap
 
 ![image](https://user-images.githubusercontent.com/40743779/188272400-1a5dbcd6-b823-4388-b374-2ec7e14380ec.png)
 ![image](https://user-images.githubusercontent.com/40743779/188272411-2b4ad464-1cb4-4ff1-ba45-b6d6b1cd9dd0.png)
