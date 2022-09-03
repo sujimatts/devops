@@ -14,15 +14,16 @@
     - proxy service that provides an easy way to connect compatible AWS applications, such as Amazon WorkSpaces, Amazon QuickSight, and Amazon EC2 for Windows Server instances, 
       to your existing on-premises Microsoft Active Directory
 
-## how to choose best service:
+## How to choose best service:
     https://docs.aws.amazon.com/directoryservice/latest/admin-guide/what_is.html
 
-# how to Setup SSO
+# How to Setup SSO
  - https://getstarted.awsworkshop.io/02-dev-fast-follow/02-federated-access-to-aws/02-aws-sso-ad.html
 
   ### AWS SSO [AWS IAM Identity Center is the successor to AWS SSO]
     [ manage SSO access to multiple AWS accounts & business appls]
-      ![image](https://user-images.githubusercontent.com/40743779/188261120-895867ed-6744-4a85-8a21-6e52770824f4.png)
+    
+    ![image](https://user-images.githubusercontent.com/40743779/188261120-895867ed-6744-4a85-8a21-6e52770824f4.png)
 
     - AWS Directory Service has the following two options available:
 
