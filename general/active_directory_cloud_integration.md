@@ -19,12 +19,11 @@
 
 # How to Setup SSO
  - https://getstarted.awsworkshop.io/02-dev-fast-follow/02-federated-access-to-aws/02-aws-sso-ad.html
+    ![AD_SSO](ref_images/sso-integration-ad-conenctor.png)
 
   ### AWS SSO [AWS IAM Identity Center is the successor to AWS SSO]
     [ manage SSO access to multiple AWS accounts & business appls]
     
-    ![AD_SSO](ref_images/sso-integration-ad-conenctor.png)
-
     - AWS Directory Service has the following two options available:
 
     Create a two-way trust relationship – Two-way trust relationships created between AWS Managed Microsoft AD and an on-premises Active Directory enable on-premises users to sign in with their corporate credentials to various AWS services and business applications. One-way trusts will not work with AWS SSO. For more information about setting up a two-way trust, see When to Create a Trust Relationship in the AWS Directory Service Administration Guide.
