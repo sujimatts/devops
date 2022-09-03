@@ -175,25 +175,13 @@ Having the System Security Plan (SSP), Interconnection Security Agreements (ISAs
 | What security tools/agents are in place? How are they licensed? |   |
 | Security key management (Windows, or Database pswd mngt) e.g. how would you change database access passwords? |   |
 
-**Other notes on security and compliance:**
+## AWS Whitepapers
+https://media.amazonwebservices.com/CloudMigration-main.pdf
+https://media.amazonwebservices.com/CloudMigration-scenario-wep-app.pdf
 
-# Notes on this draft assessment
+![image](https://user-images.githubusercontent.com/40743779/188272400-1a5dbcd6-b823-4388-b374-2ec7e14380ec.png)
+![image](https://user-images.githubusercontent.com/40743779/188272411-2b4ad464-1cb4-4ff1-ba45-b6d6b1cd9dd0.png)
 
-Questions from Feb 7 document that we&#39;re not using
-
-- Leverage modern cloud-based capabilities  (seems redundant in cloud migration drivers)
-- 800-53 controls needed, accepted, or compensating controls in place? (not sure how to distill this down for an overview)
-- Is there a secure interconnection in place for live CDM data feed/collection? (seemed redundant with ISAs and security tools installed)
-- How will licensing work for security tools that need to be installed? What tools are already in environment? (not wanting to jump ahead to solutioning on the new env)
-- Security Requirements (Siteminder, Ping, SSO) -  DHS,, (SAML) or NIST implementation? (duplicate by products/agents and how are users/admins authenticated)
-- Does solution support PIV/CAC auth (how are users/admins authenticated)
-- For the following, not sure if these are about the current system, or the target environment, so omitted for now:
-  - Is access allowed to the environment for audits?
-  - Is comm path in place for reporting to SOC on security incidents?  Access Agreements for incidents
-  - Are all CIs in a CMDB for integration with SOC tools?
-  - Who does contingency testing when external? Ensure redundancy in solutions.
-  - Are all tools and software used in solution approved on the/DHS TRM?
-  - Validating public trust and ROB for all system administrators?
 
 READ:
 https://www.ancoris.com/blog/12-items-cloud-migration-checklist
