@@ -23,7 +23,7 @@
   ### AWS SSO [AWS IAM Identity Center is the successor to AWS SSO]
     [ manage SSO access to multiple AWS accounts & business appls]
     
-    ![alt text](https://user-images.githubusercontent.com/40743779/188261120-895867ed-6744-4a85-8a21-6e52770824f4.png)
+    ![alt text](general/ref_images/sso-integration-ad-conenctor.png)
 
     - AWS Directory Service has the following two options available:
 
