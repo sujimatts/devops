@@ -13,3 +13,10 @@ A VPC endpoint enables you to privately connect your VPC to supported AWS servic
 ### AWS Transit Gateway
 AWS Transit Gateway connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This simplifies your network and puts an end to complex peering relationships. It acts as a cloud router – each new connection is only made once.
 
+### Network ACls (NACL)
+A network access control list (ACL) allows or denies specific inbound or outbound traffic at the subnet level
+
+### Security Group
+AWS security group acts as a virtual firewall for your instances to control incoming and outgoing traffic. 
+
+![image](https://user-images.githubusercontent.com/40743779/188293838-b9371fbe-7c4e-4a7a-be50-2df0a72a466a.png)
