@@ -45,7 +45,7 @@ Cons:
 ## Blue/Green
 The blue/green deployment strategy differs from a ramped deployment, version B (green) is deployed alongside version A (blue) with exactly the same amount of instances. After testing that the new version meets all the requirements the traffic is switched from version A to version B at the load balancer level.
 
-![image](https://user-images.githubusercontent.com/40743779/188452856-a55533b3-6207-48fd-ac9a-76e13cd7a783.png)
+![blue-green](https://user-images.githubusercontent.com/40743779/188453166-9fce0368-d629-4423-8825-ab890e9303d3.gif)
 
 
 Pros:
@@ -57,3 +57,41 @@ Cons:
   - Proper test of the entire platform should be done before releasing to production.
   - Handling stateful applications can be hard.
 
+## Canary
+A canary deployment consists of gradually shifting production traffic from version A to version B. Usually the traffic is split based on weight. For example, 90 percent of the requests go to version A, 10 percent go to version B.
+
+This technique is mostly used when the tests are lacking or not reliable or if there is little confidence about the stability of the new release on the platform.
+
+![canary](https://user-images.githubusercontent.com/40743779/188453339-fdc901ee-8a4b-4b9b-8757-1383e0704a0c.gif)
+
+Pros:
+  - Version released for a subset of users.
+  - Convenient for error rate and performance monitoring.
+  - Fast rollback.
+
+Con:
+  - Slow rollout.
+
+## A/B testing
+A/B testing deployments consists of routing a subset of users to a new functionality under specific conditions. It is usually a technique for making business decisions based on statistics, rather than a deployment strategy. However, it is related and can be implemented by adding extra functionality to a canary deployment so we will briefly discuss it here.
+
+This technique is widely used to test conversion of a given feature and only roll-out the version that converts the most.
+
+Here is a list of conditions that can be used to distribute traffic amongst the versions:
+
+  - By browser cookie
+  - Query parameters
+  - Geolocalisation
+  - Technology support: browser version, screen size, operating system, etc.
+  - Language
+
+![ab](https://user-images.githubusercontent.com/40743779/188453549-ac080d80-977d-4044-9fde-8d5d9f4b8f64.gif)
+
+
+Pros:
+  - Several versions run in parallel.
+  - Full control over the traffic distribution.
+
+Cons:
+  - Requires intelligent load balancer.
+  - Hard to troubleshoot errors for a given session, distributed tracing becomes mandatory.
