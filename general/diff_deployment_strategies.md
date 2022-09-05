@@ -11,7 +11,7 @@ Shadow: Version B receives real-world traffic alongside version A and doesn’t 
 ## Recreate
 The recreate strategy is a dummy deployment which consists of shutting down version A then deploying version B after version A is turned off. This technique implies downtime of the service that depends on both shutdown and boot duration of the application.
 
-![image](https://user-images.githubusercontent.com/40743779/188452361-0fe95ec8-1bab-488d-9359-a72cd4df53a9.png)
+![recreate](https://user-images.githubusercontent.com/40743779/188454184-9cd612ee-8f50-400f-ad08-2d78f28cda2f.gif)
 
 Pros:
   - Easy to setup.
@@ -29,7 +29,7 @@ Parallelism, max batch size: Number of concurrent instances to roll out.
 Max surge: How many instances to add in addition of the current amount.
 Max unavailable: Number of unavailable instances during the rolling update procedure
 
-![image](https://user-images.githubusercontent.com/40743779/188452526-dc37dc34-8bf1-46de-bcea-11cc467f043c.png)
+![ramped](https://user-images.githubusercontent.com/40743779/188454259-b4d3ff40-fc88-484c-a706-1dc87656dee4.gif)
 
 Pros:
   - Easy to set up.
@@ -113,6 +113,12 @@ Cons:
   - Not a true user test and can be misleading.
   - Complex to setup.
   - Requires mocking service for certain cases.
+
+# To Sum Up
+
+Below is a diagram to help you choose the right strategy:
+
+![image](https://user-images.githubusercontent.com/40743779/188454450-68809e55-9017-485e-812f-2ba2bde06921.png)
 
 
 REFER: https://thenewstack.io/deployment-strategies/
