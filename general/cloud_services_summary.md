@@ -20,3 +20,13 @@ A network access control list (ACL) allows or denies specific inbound or outboun
 AWS security group acts as a virtual firewall for your instances to control incoming and outgoing traffic. 
 
 ![image](https://user-images.githubusercontent.com/40743779/188293838-b9371fbe-7c4e-4a7a-be50-2df0a72a466a.png)
+
+### Subnets
+A subnet is a range of IP addresses in your VPC and it must reside inside an AZ
+https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html
+
+### Route Tables
+A route table contains a set of rules, called routes, that determine where network traffic from your subnet or gateway is directed.
+
+### VPC
+https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
