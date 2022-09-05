@@ -95,3 +95,24 @@ Pros:
 Cons:
   - Requires intelligent load balancer.
   - Hard to troubleshoot errors for a given session, distributed tracing becomes mandatory.
+
+## Shadow
+A shadow deployment consists of releasing version B alongside version A, fork version A’s incoming requests and send them to version B as well without impacting production traffic. This is particularly useful to test production load on a new feature. A rollout of the application is triggered when stability and performance meet the requirements.
+
+This technique is fairly complex to setup and needs special requirements, especially with egress traffic. For example, given a shopping cart platform, if you want to shadow test the payment service you can end-up having customers paying twice for their order. In this case, you can solve it by creating a mocking service that replicates the response from the provider.
+
+![shadow](https://user-images.githubusercontent.com/40743779/188453765-9c54e232-deb4-4059-ae39-e39cfa8c5049.gif)
+
+Pros:
+  - Performance testing of the application with production traffic.
+  - No impact on the user.
+  - No rollout until the stability and performance of the application meet the requirements.
+
+Cons:
+  - Expensive as it requires double the resources.
+  - Not a true user test and can be misleading.
+  - Complex to setup.
+  - Requires mocking service for certain cases.
+
+
+REFER: https://thenewstack.io/deployment-strategies/
