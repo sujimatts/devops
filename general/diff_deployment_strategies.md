@@ -14,11 +14,11 @@ The recreate strategy is a dummy deployment which consists of shutting down vers
 ![image](https://user-images.githubusercontent.com/40743779/188452361-0fe95ec8-1bab-488d-9359-a72cd4df53a9.png)
 
 Pros:
-Easy to setup.
-Application state entirely renewed.
+  - Easy to setup.
+  - Application state entirely renewed.
 
 Cons:
-High impact on the user, expect downtime that depends on both shutdown and boot duration of the application.
+  - High impact on the user, expect downtime that depends on both shutdown and boot duration of the application.
 
 ## Ramped
 The ramped deployment strategy consists of slowly rolling out a version of an application by replacing instances one after the other until all the instances are rolled out. It usually follows the following process: with a pool of version A behind a load balancer, one instance of version B is deployed. When the service is ready to accept traffic, the instance is added to the pool. Then, one instance of version A is removed from the pool and shut down.
@@ -32,12 +32,28 @@ Max unavailable: Number of unavailable instances during the rolling update proce
 ![image](https://user-images.githubusercontent.com/40743779/188452526-dc37dc34-8bf1-46de-bcea-11cc467f043c.png)
 
 Pros:
-Easy to set up.
-Version is slowly released across instances.
-Convenient for stateful applications that can handle rebalancing of the data.
+  - Easy to set up.
+  - Version is slowly released across instances.
+  - Convenient for stateful applications that can handle rebalancing of the data.
 
 Cons:
-Rollout/rollback can take time.
-Supporting multiple APIs is hard.
-No control over traffic.
-Blue/Green
+  - Rollout/rollback can take time.
+  - Supporting multiple APIs is hard.
+  - No control over traffic.
+  - Blue/Green
+
+## Blue/Green
+The blue/green deployment strategy differs from a ramped deployment, version B (green) is deployed alongside version A (blue) with exactly the same amount of instances. After testing that the new version meets all the requirements the traffic is switched from version A to version B at the load balancer level.
+
+![image](https://user-images.githubusercontent.com/40743779/188452856-a55533b3-6207-48fd-ac9a-76e13cd7a783.png)
+
+
+Pros:
+  - Instant rollout/rollback.
+  - Avoid versioning issue, the entire application state is changed in one go.
+
+Cons:
+  - Expensive as it requires double the resources.
+  - Proper test of the entire platform should be done before releasing to production.
+  - Handling stateful applications can be hard.
+
