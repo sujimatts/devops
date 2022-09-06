@@ -53,6 +53,7 @@ courses - https://www.educative.io/path/devops-for-developers?aff=KNLz
 90 days of devops - https://github.com/MichaelCade/90DaysOfDevOps  
 interview_questions - https://github.com/bregman-arie/devops-exercises
 
+
 ## SRE
 google_sre - https://sre.google/sre-book/table-of-contents/
 
@@ -61,3 +62,19 @@ https://itopslevelone.upload.academy/content/tech/networking/
 
 ## company insghts
 https://www.crunchbase.com/
+
+## GITHUB ACCOUNT FOR DEVOPS PROJECTS.
+
+
+1. https://lnkd.in/gmWjN3wk
+2. https://lnkd.in/gH9c-_Dc
+3. https://lnkd.in/g4XP7YaX
+
+## GITHUB ACCOUNT TO LEARN DEVOPS
+
+1. https://lnkd.in/g6G-YJqr
+2. https://lnkd.in/gSbFJmYg
+3. https://lnkd.in/gkE8ED7V
+4. https://lnkd.in/gCtsB4V2
+5. https://lnkd.in/gEFK3egP
+6. https://lnkd.in/gsTTfH6y
