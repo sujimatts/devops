@@ -55,6 +55,7 @@ interview_questions - https://github.com/bregman-arie/devops-exercises
 
 ## devsecops
 https://github.com/TaptuIT/awesome-devsecops
+https://github.com/hahwul/DevSecOps
 
 
 ## SRE
