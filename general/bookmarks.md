@@ -53,6 +53,9 @@ courses - https://www.educative.io/path/devops-for-developers?aff=KNLz
 90 days of devops - https://github.com/MichaelCade/90DaysOfDevOps  
 interview_questions - https://github.com/bregman-arie/devops-exercises
 
+## devsecops
+https://github.com/TaptuIT/awesome-devsecops
+
 
 ## SRE
 google_sre - https://sre.google/sre-book/table-of-contents/
