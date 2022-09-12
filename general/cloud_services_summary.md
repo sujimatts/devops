@@ -30,3 +30,6 @@ A route table contains a set of rules, called routes, that determine where netwo
 
 ### VPC
 https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
+
+### Cloudfront
+cache invalidation - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html
