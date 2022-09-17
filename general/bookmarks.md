@@ -65,6 +65,7 @@ google_sre - https://sre.google/sre-book/table-of-contents/
 https://itopslevelone.upload.academy/content/tech/networking/
 
 ## System Design
+https://github.com/donnemartin/system-design-primer
 https://github.com/relogX/system-design-questions
 
 ## company insghts
