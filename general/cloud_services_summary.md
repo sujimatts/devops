@@ -33,3 +33,7 @@ https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 
 ### Cloudfront
 cache invalidation - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html
+
+### Lambda 
+AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running.
+Supported List of event sourcees: https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html#intro-core-components-event-sources
