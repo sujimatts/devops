@@ -68,6 +68,7 @@ https://itopslevelone.upload.academy/content/tech/networking/
 https://github.com/donnemartin/system-design-primer
 https://github.com/relogX/system-design-questions
 https://github.com/InterviewReady/system-design-resources/
+
 ## company insghts
 https://www.crunchbase.com/
 
