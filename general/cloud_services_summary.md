@@ -10,7 +10,7 @@ A VPC endpoint enables you to privately connect your VPC to supported AWS servic
     Gateway - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses. You route traffic from your VPC to the gateway endpoint using               route tables. Gateway endpoints do not enable AWS PrivateLink.
 
 ## VPC endpoint v/s AWS PrivateLink
-VPC endpoint — The entry point in your VPC that enables you to connect privately to a service.
+VPC endpoint — The entry point in your VPC that enables you to connect privately to a service. 
 AWS PrivateLink — A technology that provides private connectivity between VPCs and services.
 
 
