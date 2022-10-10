@@ -192,3 +192,9 @@ https://peoplactive.com/cloud-migration-checklist/
 https://medium.datadriveninvestor.com/step-by-step-cloud-migration-checklist-4735b9456802
 https://www.techtarget.com/searchcloudcomputing/opinion/What-to-include-on-your-cloud-migrations-checklist
 
+https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/
+https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-portfolio-discovery/planning.html
+https://d1.awsstatic.com/whitepapers/cloud-migration-main.pdf
+https://www.youtube.com/watch?v=tB0sAR3aCb4
+https://nodeployfriday.com/posts/aws-wordpress-reference-architecture/
+
