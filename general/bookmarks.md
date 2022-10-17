@@ -1,3 +1,6 @@
+## AWS library
+https://aws.amazon.com/builders-library/
+
 ## all-in-one
 https://devopscube.com/
 
@@ -71,7 +74,7 @@ https://github.com/donnemartin/system-design-primer
 https://github.com/relogX/system-design-questions
 https://github.com/InterviewReady/system-design-resources/
 
-## company insghts
+## company insights
 https://www.crunchbase.com/
 
 ## GITHUB ACCOUNT FOR DEVOPS PROJECTS.
