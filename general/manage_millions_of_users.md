@@ -12,3 +12,6 @@ https://www.novelvista.com/blogs/cloud-and-aws/build-a-scalable-application-upto
 
 ## Kubernetes
 HPA - https://www.kubecost.com/kubernetes-autoscaling/kubernetes-hpa/
+
+## how dynamodb scaling works 
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AutoScaling.html
