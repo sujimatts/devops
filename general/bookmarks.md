@@ -16,6 +16,7 @@ https://www.learnsteps.com/
 https://www.youtube.com/channel/UCwopwnnBoKMOUEOl6lefM0w
 https://kubernetes-security.info/
 
+failure stories - https://k8s.af/
 production best practices - https://learnk8s.io/production-best-practices  
 27 open source tools - https://dev.to/signoz/27-open-source-tools-that-can-make-your-kubernetes-workflow-easier-5ai2  
 
