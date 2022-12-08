@@ -64,7 +64,7 @@ cdk-architecting - https://aws.amazon.com/blogs/architecture/lets-architect-arch
 courses - https://www.educative.io/path/devops-for-developers?aff=KNLz  
 90 days of devops - https://github.com/MichaelCade/90DaysOfDevOps  
 interview_questions - https://github.com/bregman-arie/devops-exercises
-
+SRE                 - https://github.com/mxssl/sre-interview-prep-guide
 ## devsecops
 https://github.com/TaptuIT/awesome-devsecops
 https://github.com/hahwul/DevSecOps
